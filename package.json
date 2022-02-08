@@ -1,0 +1,28 @@
+{
+  "type": "module",
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/node": "^7.16.8",
+    "jest": "^27.4.7",
+    "jsdom": "^19.0.0"
+  },
+  "jest": {
+    "verbose": true
+  },
+  "testEnvironment": "node",
+  "globals": {
+    "window": true
+  },
+  "dependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.16.8"
+  }
+}

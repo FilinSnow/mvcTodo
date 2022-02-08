@@ -1,0 +1,60 @@
+.wrapperTask {
+	display: flex;
+	margin-top: 10px;
+	/* align-items: center; */
+}
+
+.containerText {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.containerText p {
+	width: 100%;
+}
+
+.containerActBtn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.list-group-item {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.btn {
+	outline: none;
+}
+.btn-primary .edit{
+	margin-right: 10px;
+}
+
+li span {
+	max-width: 100px;
+}
+.btn:focus {
+	outline: none !important;
+	box-shadow: none !important;
+	-webkit-appearance: none;
+}
+
+.mt-10 {
+	margin-top: 10px !important;
+}
+
+.hidden {
+	display: none;
+}
+
+.inputCheckBox {
+	margin-right: 5px;
+}
+
+.done {
+	text-decoration: line-through;
+	color: green;
+}
